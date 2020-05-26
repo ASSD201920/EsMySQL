@@ -7,8 +7,3 @@ ENV MYSQL_USER=unisannio
 ENV MYSQL_PASSWORD=unisannio
 
 EXPOSE 3306
-
-RUN sudo chown mysql /var/lib/mysql
-RUN sudo chgrp mysql /var/lib/mysql
-
-USER mysql
